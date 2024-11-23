@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.nav-area {
+    background-color: rgb(255, 255, 255);
+    color: #169E00;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.head-area {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 39.01px;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.web-logo {
+    cursor: pointer;
+}
+
+.button {
+    background-color: #169E00;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.about-page {
+    background-color: #169E00;
+    color: white;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 117.02px;
+    margin: 100px;
+
+
+}
+
+.web-info {
+    background-color: white;
+    color: #169E00;
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 117.02px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    color: #169E00;
+}
+
+.image-item {
+    text-align: center;
+}
+
+.image-item p {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.76px;
+}
+
+.person-info {
+    color: #A3A3A3;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.26px;
+
+}
+
+.footer-container {
+    display: flex;
+    gap: 50px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #002A96;
+    color: #fff;
+    padding: 20px;
+    height: 30vh;
+}
+
+h3 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.51px;
+
+}
+
+p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.26px;
+
+
+}
+
+.left,
+.middle,
+.right,
+.Freebook {
+    flex: 1 1 200px;
+}
+
+.footer h4 {
+    font-size: 16px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39.01px;
+
+}
+
+input {
+    padding: 5px;
+    margin: 2px;
+}
+
+button {
+    background-color: #169E00;
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+ul li a {
+    color: white;
+}
